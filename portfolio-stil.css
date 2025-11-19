@@ -11,7 +11,7 @@ body {
     font-family: "Roboto", "Open Sans", Arial,;
     width: 80%;             /* eller 960px */
     margin: 20px auto;
-    background-color: #9f45af;
+    background-color: #70a2ff;
     padding: 20px 40px;
     color: #ffffff;
 }
@@ -26,8 +26,8 @@ h1 {
 }
 
 h2 {
-    color: #333;
-    border-bottom: 2px solid #aaa;
+    color: #44428f;
+    border-bottom: 2px solid #ffffff;
     padding-bottom: 5px;
     margin-top: 40px;
 }
