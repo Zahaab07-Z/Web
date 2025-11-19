@@ -6,20 +6,20 @@ html {
     box-sizing: inherit;
 }
 
-/* ---- Body-styling ---- */
+
 body {
-    font-family: "Roboto", "Open Sans", Arial, sans-serif;
+    font-family: "Roboto", "Open Sans", Arial,;
     width: 80%;             /* eller 960px */
     margin: 20px auto;
-    background-color: #f2f4f8;
+    background-color: #9f45af;
     padding: 20px 40px;
-    color: #222;
+    color: #ffffff;
 }
 
-/* ---- Rubriker ---- */
+
 h1 {
     font-size: 48px;
-    color: #2a4d8f;
+    color: #ffffff;
     text-transform: uppercase;
     letter-spacing: 2px;
     text-align: center;
@@ -32,59 +32,59 @@ h2 {
     margin-top: 40px;
 }
 
-/* ---- Om Mig ---- */
+
 p {
     line-height: 1.6;
 }
 
 .namn-markering {
-    color: #0066cc;
+    color: #ffffff;
     font-weight: bold;
 }
 
-/* ---- Projekt & Intressen ---- */
+
 ul {
     list-style-type: none;
     padding-left: 0;
 }
 
 ul li {
+    list-style-type: none;
     margin: 8px 0;
-    padding-left: 10px;
+    padding-left: 0px;
     position: relative;
 }
 
-/* Egen symbol framför listan */
+
 ul li::before {
     content: "•";
-    color: #2a4d8f;
+    color: #1c5fdd;
     font-size: 20px;
     position: absolute;
     left: -10px;
     top: -2px;
 }
 
-/* Projekt-item-stil */
+
 .projekt-item {
-    background-color: #e8edf5;
-    border: 1px solid #ccd5e0;
+    border: 1px solid #ffffff;
     padding: 8px 12px;
     border-radius: 5px;
 }
 
-/* ---- Kontaktlänkar ---- */
+
 a {
-    color: #1c5fd4;
+    color: #ffffff;
     text-decoration: none;
     font-weight: bold;
 }
 
 a:hover {
-    color: #0a3a8a;
+    color: #ffffff;
     text-decoration: underline;
 }
 
-/* ---- Bild ---- */
+
 img {
     width: 160px;
     height: 160px;
